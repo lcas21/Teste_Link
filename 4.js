@@ -1,0 +1,16 @@
+var faturamentoSP = 67836.43;
+var faturamentoRJ = 36678.66;
+var faturamentoMG = 29229.88;
+var faturamentoES = 27165.48;
+var faturamentoOutros = 19849.53;
+var valorFaturamento = (faturamentoSP + faturamentoRJ + faturamentoMG + faturamentoES + faturamentoOutros);
+var faturamentoSPPercentual = (faturamentoSP / valorFaturamento) * 100;
+var faturamentoRJPercentual = (faturamentoRJ / valorFaturamento) * 100;
+var faturamentoMGPercentual = (faturamentoMG / valorFaturamento) * 100;
+var faturamentoESPercentual = (faturamentoES / valorFaturamento) * 100;
+var faturamentoOutrosPercentual = (faturamentoOutros / valorFaturamento) * 100;
+console.log("O faturamento da SP foi de ".concat(faturamentoSPPercentual.toFixed(2), "%"));
+console.log("O faturamento da RJ foi de ".concat(faturamentoRJPercentual.toFixed(2), "%"));
+console.log("O faturamento da MG foi de ".concat(faturamentoMGPercentual.toFixed(2), "%"));
+console.log("O faturamento da ES foi de ".concat(faturamentoESPercentual.toFixed(2), "%"));
+console.log("O faturamento de outros estados foi de ".concat(faturamentoOutrosPercentual.toFixed(2), "%"));
