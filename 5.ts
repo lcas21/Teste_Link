@@ -8,6 +8,6 @@ function inverterString(str: string): string {
   return strInvertida;
 }
 
-let stringOriginal = "Quero ser aprovado por favor kkk";
+let stringOriginal = "Quero ser aprovado por favor kkkkkk";
 let stringInvertida = inverterString(stringOriginal);
 console.log("A string invertida é:", stringInvertida);

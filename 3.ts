@@ -90,5 +90,5 @@ console.log(
 console.log(`A média de faturamento diário é: R$ ${mediaFaturamentoDiario}`);
 
 console.log(
-  `O número de dias com faturamento maior que a média é: ${diasMaiorMedia}`
+  `O número de dias com faturamento superior que a média é: ${diasMaiorMedia}`
 );

@@ -27,19 +27,19 @@ const faturamentoOutrosPercentual =
   (faturamentoOutros / valorFaturamento) * 100;
 
 console.log(
-  `O faturamento da SP foi de ${faturamentoSPPercentual.toFixed(2)}%`
+  `O faturamento de SP foi de ${faturamentoSPPercentual.toFixed(2)}%`
 );
 
 console.log(
-  `O faturamento da RJ foi de ${faturamentoRJPercentual.toFixed(2)}%`
+  `O faturamento de RJ foi de ${faturamentoRJPercentual.toFixed(2)}%`
 );
 
 console.log(
-  `O faturamento da MG foi de ${faturamentoMGPercentual.toFixed(2)}%`
+  `O faturamento de MG foi de ${faturamentoMGPercentual.toFixed(2)}%`
 );
 
 console.log(
-  `O faturamento da ES foi de ${faturamentoESPercentual.toFixed(2)}%`
+  `O faturamento de ES foi de ${faturamentoESPercentual.toFixed(2)}%`
 );
 
 console.log(
